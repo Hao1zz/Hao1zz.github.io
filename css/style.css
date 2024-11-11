@@ -1,0 +1,14 @@
+h1{
+    font-family: 'deyihei', sans-serif;
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:60px;
+    cursor: pointer;
+    position: relative;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
