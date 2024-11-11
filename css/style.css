@@ -1,0 +1,57 @@
+#main{
+	width: 600px;
+	margin: auto;
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+}
+#logo img{
+	width: 50px;
+	height: 50px;
+}
+
+h1{
+    font-family: 'deyihei', sans-serif;
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:60px;
+    cursor: pointer;
+    position: relative;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.section {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.section a {
+    display: block;
+    padding: 20px;
+    color: #007AFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+.section a::after {
+    content: '>';
+    float: right;
+    color: #C7C7CC;
+}  /* 在文字后添加一个箭头 */
+
+
+
